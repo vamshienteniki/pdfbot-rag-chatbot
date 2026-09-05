@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables (NEVER push this!)
+.env
+
+# Vector Store (large files, regenerate with ingest.py)
+vectorstore/
+
+# Data folder (optional - PDFs can be large)
+# data/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
